@@ -1,5 +1,6 @@
 
 public class Pessoa {
+<<<<<<< HEAD
 	
 	public int id;
 
@@ -12,4 +13,7 @@ public class Pessoa {
 	}
 	
 
+=======
+	//teste de comentario
+>>>>>>> branch 'master' of https://github.com/diegoszmidtkegomes/ifrsprojetocurso.git
 }
