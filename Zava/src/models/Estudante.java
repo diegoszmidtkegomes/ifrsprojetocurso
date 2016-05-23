@@ -1,6 +1,6 @@
 package models;
 
-public class Estudante {
+public class Estudante extends Usuario {
 	private int id_estudante;
 	private int matricula;
 	private String senha;
@@ -12,6 +12,19 @@ public class Estudante {
 		this.senha = senha;
 		this.nome = nome;
 	}
+	
+	public int getMatricula() {
+		return matricula;
+	}
+	
+	public String getNome() {
+		return nome;
+	}
+	
+	public String getSenha() {
+		return senha;
+	}	
+	
 	private static int idProximo=0;
     private static int getIdProximo() {
         return idProximo++;

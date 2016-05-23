@@ -1,6 +1,6 @@
 package models;
 
-public class Professor {
+public class Professor extends Usuario {
 	private int id_professor;
 	private int matricula;
 	private String senha;
